@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorIcons</item>
+        <item name="actionMenuTextColor">@color/colorIcons</item>
+        <item name="android:textColorSecondary">@color/colorIcons</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!--<style name="SearchView">-->
+        <!--<item name="floatingSearch_backgroundColor">@color/floatingSearch_backgroundColor</item>-->
+        <!--<item name="floatingSearch_viewTextColor"></item>-->
+        <!--<item name="floatingSearch_hintTextColor"></item>-->
+        <!--<item name="floatingSearch_dividerColor"></item>-->
+        <!--<item name="floatingSearch_clearBtnColor"></item>-->
+        <!--<item name="floatingSearch_leftActionColor"></item>-->
+        <!--<item name="floatingSearch_menuItemIconColor"></item>-->
+        <!--<item name="floatingSearch_suggestionRightIconColor"></item>-->
+        <!--<item name="floatingSearch_actionMenuOverflowColor"></item>-->
+    <!--</style>-->
+
+</resources>

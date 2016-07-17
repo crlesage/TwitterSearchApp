@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="8dp">
+
+    <!-- Tweet Image -->
+    <com.crlesage.twittersearchapp.customUI.DynamicHeightImageView
+        android:id="@+id/tweet_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"/>
+
+</android.support.v7.widget.CardView>
